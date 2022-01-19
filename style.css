@@ -1,0 +1,259 @@
+*{box-sizing:border-box ;
+    font-family: 'Fira Sans', sans-serif;
+}
+body{
+    margin: 0;
+}
+h1{
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+a{
+    color: white;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+p{
+    font-size: 1.2rem;
+    text-align: justify;
+}
+h2{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.dotted-hr{
+    border: dotted 5px white;
+    border-bottom: none;
+    width: 15%;
+    margin: 20PX auto;
+
+}
+
+[class*="col-"]{
+    float: left;
+    padding: 10px;}
+    /*for mobile*/
+    [class*="col-"]{
+        width: 100%;
+    }
+.logo{
+    clip-path: circle();
+}
+/*navbar start here*/
+.navbar{
+    background-color:olive;
+    padding: 1% 7%;
+    text-align: center;
+}
+.navbar h1{
+    color: white;
+    margin: 0;
+    top padding: 10px;
+    font-family: 'Satisfy', cursive;
+
+}
+.navbar-menu{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+
+}
+.navbar-menu a{
+    background-color:transparent;
+    border-radius: 10px;
+    margin:7px 0px ;
+    
+    padding: 10px;
+}
+.navbar-menu a:hover{
+    background-color:black;
+}
+.navbar::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*navbar close here*/
+
+/*profile starts from here*/
+.profile{
+    padding: 0px 10px;
+    position: relative;
+    text-align: center;
+}
+.profile-desc h1{
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+.profile-desc p{
+    color: gray;
+    margin: 0px auto 20px auto;
+    text-align: center;
+    width: 90;
+    padding-bottom: 50px;
+}
+.profile::after{
+    content:'';
+    display: table;
+    clear: both;
+}
+/*profile ends here*/
+/*education start here*/
+.education{
+    padding: 1% 0%;
+}
+
+.education .card{
+    text-align: center;
+    background-color: #a39e9e;
+    border-radius: 5px;
+    padding: 10px;
+    transition: 0.3s;
+    /* height: 700px; */
+}
+
+.card:hover{
+    box-shadow: 0 4px 8px 5px black;
+}
+
+.card-icon{
+    text-align: center;
+}
+
+.card-icon img{
+    margin-top: 20px;
+    width: 100px;
+}
+
+.rounded-img{
+    border: 5px solid white;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.card-title h2{
+    background-color: #616161;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.education::after{
+    clear: both;
+    display: table;
+    content: '';
+ }
+
+/*education end here*/
+/*about me start here*/
+.about-me{
+    background-color:olive;
+    ;
+    padding: 1% 7%;
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.aboutme-image img{
+    border: 5px solid white;
+    border-radius: 30%;
+    height: 220px;
+    width: 200px;
+    margin-top: 20px;
+}
+
+.about-me p{
+    text-align: center;
+
+}
+.aboutme-{
+    font-size: 1rem ;
+}
+.about-me::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+
+/*about me end here*/
+
+/* achievement contact start here*/
+.achievement-contact{
+    padding: 1% 7%;
+    background-color:gray;
+    color: white;
+}
+.contact{
+    padding: 1% 7%;
+    text-align: center;
+}
+.contact input,textarea{
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+}
+.contact button{
+    border: none;
+    border-radius: 12px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    margin: 10px;
+    padding: 15px;
+    width: 100px;
+}
+.contact-links{
+    text-align: center;
+}
+.media-buttons .btn{
+border: none;
+border-radius: 30px;
+cursor: pointer;
+font-size: 40px;
+margin: 10px;
+padding: 5px;
+width: 60px;
+}
+.btn :hover{
+    background-color: gray;
+}
+.achievement-contact::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+/* achievement contact end here*/
+
+/* footer starts from here  */
+.footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.8rem;
+
+}
+
+.footer-menu a{
+    display: block;
+    margin: 15px 0;
+    font-size: 1rem;
+}
+
+.footer-menu a:hover{
+    color: gray;
+}
+
+.footer::after{
+    display: table;
+    content: '';
+    clear: both;
+}
+
+
+/* footer ends here  */
